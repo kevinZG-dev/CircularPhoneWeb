@@ -1,0 +1,278 @@
+/* Police d'écriture */
+@font-face {
+    font-family: Prompt;
+    src: url("Police/prompt-bold-webfont.woff");
+}
+
+@font-face {
+    font-family: Prompt_regular;
+    src: url("Police/Prompt-Regular.ttf")
+}
+
+body
+{
+  margin: 0 0;
+  padding: 0 0;
+  text-align: left ;
+  overflow-x: hidden;
+}
+
+div#container
+{
+    width:auto;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+div#frontTitle
+{
+    width: 100%;
+    top: 0px;
+    height: 8vh;
+    z-index: 10;
+    min-height: 40px;
+    position: fixed;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 3px 3px rgb(175, 175, 175);
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+div#Title
+{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    
+}
+
+#logo1
+{
+    min-height: 27px;
+    height: 5vh;
+    width: auto;
+}
+
+#TitleGuide
+{
+    position: absolute;
+    top : 20%;
+    left: 60%;
+}
+
+#BouttonGuide
+{
+    font-family: Prompt;
+    cursor: pointer;
+    font-size: 1.6em;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-decoration: none;
+    border-style: none;
+}
+
+div#TitleProjet
+{
+    position: absolute;
+    font-family: Prompt;
+    top : 20%;
+    left: 80%;
+    cursor: pointer;
+    font-size: 1.4em;
+    color: rgb(0, 0, 0);
+}
+
+div#paragraphe
+{
+    width: 90%;
+    margin-left: 5%;
+    height: 500px;
+    position: relative;
+}
+
+#big1
+{
+    color: #21db5e;
+    font-family: Prompt;
+    font-size: 3.9em;
+}
+
+#text1
+{
+    top: 0px;
+    left: 35%;
+    position: absolute;
+}
+
+#text2
+{
+    width: 75%;
+}
+
+#big2
+{
+    color: #21db5e;
+    font-family: Prompt;
+    font-size: 3.9em;
+    position: absolute;
+    top: 95px;
+    left: 70%;
+}
+
+div#titreGauche
+{
+    position: absolute;
+    left: 5%;
+    top: 10px;
+    font-family: Prompt;
+    font-size: 1.6em;
+}
+
+div#titreDroite
+{
+    position: absolute;
+    left: 75%;
+    top: 10px;
+    font-family: Prompt;
+    font-size: 1.6em;
+}
+
+div#titreDroiteFacon
+{
+    position: absolute;
+    left: 67%;
+    top: 10px;
+    font-family: Prompt;
+    font-size: 1.6em;
+}
+
+div#texteGauche
+{
+    position: absolute;
+    text-align: left;
+    left: 5%;
+    top: 80px;
+    width: 45%;
+    height: 400px;
+    font-size: 1.1em;
+    font-family: Prompt_regular;
+}
+
+div#texteDroite
+{
+    position: absolute;
+    text-align: left;
+    left: 45%;
+    top: 80px;
+    width: 45%;
+    height: 400px;
+    font-size: 1.1em;
+    font-family: Prompt_regular;
+}
+
+div#photoDroite
+{
+    position: absolute;
+    left: 55%;
+    width: 35%;
+    top: 20px;
+    height: 70px;
+}
+
+div#photoGauche
+{
+    position: absolute;
+    left: 5%;
+    width: 35%;
+    top: 20px;
+    height: 70px;
+}
+
+#image
+{
+    width: 100%;
+}
+
+#savoirPlus
+{
+    position: absolute;
+    left: 60%;
+    width: 35%;
+    font-family: Prompt;
+    background-color: #21db5e;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    height: 40px;
+    font-size: 1.0em;
+    top: 300px;
+}
+
+#savoirPlus:hover
+{
+    background-color: white;
+    color: #21db5e;
+    border-color: #21db5e;
+}
+
+div#uneEquipe
+{
+    position: relative;
+    width: 100%;
+    height: 130vh;
+}
+
+div#supportPhoto
+{
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    background-color: rgb(239,243,246);
+    top: 40vh;
+    height: 90vh;
+}
+
+#damien
+{
+    position: absolute;
+    width: 30%;
+    left: 0%;
+}
+
+#line
+{
+    position: absolute;
+    width: 30%;
+    left: 35%;
+}
+
+#kevin
+{
+    position: absolute;
+    width: 30%;
+    left: 70%;
+}
+
+#mathis
+{
+    position: absolute;
+    width: 30%;
+    top: 45vh;
+    left: 15%;
+}
+
+#maxime
+{
+    position: absolute;
+    top: 45vh;
+    width: 30%;
+    left: 55%;
+}

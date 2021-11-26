@@ -1,0 +1,45 @@
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/8.5.68
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Jun 11 2021 13:32:01 UTC
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               8.5.68.0
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk1.8.0_291\jre
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      1.8.0_291-b10
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\conf\logging.properties
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Nov-2021 12:16:21.452 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dhttp.nonProxyHosts=localhost|127.0.0.1|PCDEKEVIN
+25-Nov-2021 12:16:21.468 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+25-Nov-2021 12:16:21.468 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Nov-2021 12:16:21.468 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+25-Nov-2021 12:16:21.468 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68
+25-Nov-2021 12:16:21.468 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68
+25-Nov-2021 12:16:21.468 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\temp
+25-Nov-2021 12:16:21.468 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [1.2.30] en utilisant APR version [1.7.0]
+25-Nov-2021 12:16:21.468 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Fonctionnalités d'APR : IPv6 [true], sendfile [true], accept filters [false], random [true]
+25-Nov-2021 12:16:21.468 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Configuration de APR/OpenSSL : useAprConnector [false], useOpenSSL [true]
+25-Nov-2021 12:16:21.468 INFOS [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 1.1.1k  25 Mar 2021]
+25-Nov-2021 12:16:21.593 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+25-Nov-2021 12:16:21.859 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Nov-2021 12:16:21.874 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 720 ms
+25-Nov-2021 12:16:21.937 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+25-Nov-2021 12:16:21.937 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/8.5.68]
+25-Nov-2021 12:16:21.952 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\webapps\docs]
+25-Nov-2021 12:16:22.093 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\webapps\docs] de l'application web s'est terminé en [141] ms
+25-Nov-2021 12:16:22.093 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\webapps\examples]
+25-Nov-2021 12:16:22.687 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\webapps\examples] de l'application web s'est terminé en [594] ms
+25-Nov-2021 12:16:22.687 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\webapps\host-manager]
+25-Nov-2021 12:16:22.718 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\webapps\host-manager] de l'application web s'est terminé en [31] ms
+25-Nov-2021 12:16:22.718 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\webapps\manager]
+25-Nov-2021 12:16:22.749 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\webapps\manager] de l'application web s'est terminé en [31] ms
+25-Nov-2021 12:16:22.749 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\webapps\ROOT]
+25-Nov-2021 12:16:22.765 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\webapps\ROOT] de l'application web s'est terminé en [16] ms
+25-Nov-2021 12:16:22.765 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+25-Nov-2021 12:16:22.765 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 889 ms
+25-Nov-2021 12:16:25.264 INFOS [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\conf\Catalina\localhost\CircularPhoneJSP.xml]
+25-Nov-2021 12:16:25.561 INFOS [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+25-Nov-2021 12:16:25.576 INFOS [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\zk942\Desktop\CircularPhoneNetbeansFinal\apache-tomcat-8.5.68\conf\Catalina\localhost\CircularPhoneJSP.xml] a pris [312] ms
+25-Nov-2021 12:16:25.576 INFOS [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.start La méthode start() a été appelée sur le composant [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CircularPhoneJSP]] après que start() ait déjà été appelé, le deuxième appel sera ignoré

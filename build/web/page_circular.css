@@ -1,0 +1,263 @@
+/* Police d'écriture */
+@font-face {
+    font-family: Prompt;
+    src: url("Police/prompt-bold-webfont.woff");
+}
+
+@font-face {
+    font-family: Prompt_regular;
+    src: url("Police/Prompt-Regular.ttf")
+}
+
+body
+{
+  margin: 0 0;
+  padding: 0 0;
+  text-align: left ;
+  overflow-x: hidden;
+}
+
+div#container
+{
+    width:auto;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+div#frontTitle
+{
+    width: 100%;
+    top: 0px;
+    height: 8vh;
+    min-height: 40px;
+    z-index: 100;
+    position: fixed;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 3px 3px rgb(175, 175, 175);
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+div#Title
+{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    
+}
+
+#logo1
+{
+    min-height: 27px;
+    height: 5vh;
+    width: auto;
+}
+
+#TitleGuide
+{
+    position: absolute;
+    top : 20%;
+    left: 60%;
+}
+
+#BouttonGuide
+{
+    font-family: Prompt;
+    cursor: pointer;
+    font-size: 1.6em;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-decoration: none;
+    border-style: none;
+}
+
+div#TitleProjet
+{
+    position: absolute;
+    font-family: Prompt;
+    top : 20%;
+    left: 80%;
+    cursor: pointer;
+    font-size: 1.4em;
+    color: rgb(0, 0, 0);
+}
+
+#imageFond
+{
+    width: 100%;
+    position: absolute;
+    z-index: -50;
+    top: 0px;
+    left: 0px;
+}
+
+#imageDebut
+{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#circularRouge
+{
+    width: 15%;
+    position: absolute;
+    top: 180vh;
+    left: 2%;
+}
+
+#photoCircular
+{
+    width: 100%;
+    position: absolute;
+}
+
+#nombreCircular
+{
+    position: absolute;
+    font-family: Prompt;
+    font-size: 3.6vw;
+    color:white;
+    left: 86%;
+    top: 11vh;
+}
+
+#circularJaune
+{
+    width: 15%;
+    position: absolute;
+    top: 260vh;
+    left: 2%;
+}
+
+#circularVert
+{
+    width: 15%;
+    position: absolute;
+    top: 340vh;
+    left: 2%;
+}
+
+#titre1
+{
+    width: 45%;
+    text-align: right;
+    font-family: Prompt;
+    font-size: 2.3vw;
+    position: absolute;
+    top: 170vh;
+    left: 45%;
+}
+
+#text1
+{
+    width: 45%;
+    text-align: left;
+    font-family: Prompt_regular;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 185vh;
+    left: 45%;
+}
+
+#titre2
+{
+    width: 45%;
+    text-align: right;
+    font-family: Prompt;
+    font-size: 2.3vw;
+    position: absolute;
+    top: 250vh;
+    left: 45%;
+}
+
+#text2
+{
+    width: 45%;
+    text-align: left;
+    font-family: Prompt_regular;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 265vh;
+    left: 45%;
+}
+
+#titre3
+{
+    width: 45%;
+    text-align: right;
+    font-family: Prompt;
+    font-size: 2.3vw;
+    position: absolute;
+    top: 330vh;
+    left: 45%;
+}
+
+#text3
+{
+    width: 45%;
+    text-align: left;
+    font-family: Prompt_regular;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 345vh;
+    left: 45%;
+}
+
+#titreImpact
+{
+    width: 70%;
+    text-align: center;
+    font-family: Prompt;
+    font-size: 2.3vw;
+    position: absolute;
+    top: 130vh;
+    left: 15%;
+}
+
+#textImpact
+{
+    width: 70%;
+    text-align: center;
+    font-family: Prompt_regular;
+    font-size: 1.25vw;
+    position: absolute;
+    top: 140vh;
+    left: 15%;
+}
+
+#titreCalcul
+{
+    width: 70%;
+    text-align: center;
+    font-family: Prompt;
+    font-size: 2.3vw;
+    position: absolute;
+    top: 420vh;
+    left: 15%;
+}
+
+#textCalcul
+{
+    width: 70%;
+    text-align: center;
+    font-family: Prompt_regular;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 435vh;
+    left: 15%;
+}
+
+#bas
+{
+    position: absolute;
+    width: 100%;
+    top: 480vh;
+    left: 0px;
+}
